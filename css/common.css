@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.row {
+    width: 1090px;
+    margin: auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
