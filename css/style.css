@@ -7,3 +7,59 @@
     color: #ffffff;
 }
 
+.site-nav a {
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.site-nav a:hover {
+    color: #ffffff;
+}
+
+.site-nav .slogan {
+    float: left;
+    margin-right: 30px;
+}
+
+.site-nav .notice-list {
+    float: left;
+    background: url("../images/notice-icon.gif") no-repeat left center;
+    height: 36px;
+    padding-left: 26px;
+    overflow: hidden;
+}
+
+.site-nav .notice-list ul {
+    position: relative;
+    top: 0;
+}
+
+.site-nav .notice-list li {
+    height: 36px;
+}
+
+.site-nav .notice-list a {
+    vertical-align: top;
+    text-decoration: underline;
+    color: #b4a078;
+}
+
+.site-nav .notice-list a:hover {
+    color: #ffffff;
+}
+
+.site-nav .item {
+    float: left;
+}
+
+.site-nav .login {
+    margin-right: 20px;
+}
+
+.site-nav .divider {
+    width: 1px;
+    height: 16px;
+    background-color: #5c5c5c;
+    margin: 10px 10px 0;
+    float: left;
+}
