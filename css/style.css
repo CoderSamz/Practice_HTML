@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body {
+    background-color: #ffffff;
+}
+
+/* 网站导航 */
 .site-nav {
     height: 36px;
     line-height: 36px;
@@ -71,7 +76,7 @@
     width: 7px;
     margin-right: 6px;
     
-    background: url(../images/component.png) no-repeat 0 0;
+    background: url("../images/component.png") no-repeat 0 0;
     vertical-align: middle;
 }
 
@@ -82,10 +87,27 @@
     width: 11px;
     margin-left: 10px;
 
-    background: url(../images/component.png) no-repeat 0 -321px;
+    background: url("../images/component.png") no-repeat 0 -321px;
     vertical-align: middle;
 }
 
 .site-nav .service:hover::after {
     transform: rotate(180deg);
 }
+
+/* 功能导航 */
+.func-nav {
+    height: 204px;
+}
+
+.func-nav .logo {
+    height: 60px;
+    width: 180px;
+    background: url("../images/component.png") no-repeat 0 -146px;
+    
+}
+
+.func-nav .logo a {
+    display: block;
+    height: 60px;
+} 
