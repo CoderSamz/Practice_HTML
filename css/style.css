@@ -2,6 +2,7 @@
 
 body {
     background-color: #ffffff;
+    font-size: 12px;
 }
 
 /* 网站导航 */
@@ -103,6 +104,8 @@ body {
 .func-nav .logo {
     height: 60px;
     width: 180px;
+    margin: 50px auto 0;
+
     background: url("../images/component.png") no-repeat 0 -146px;
     
 }
@@ -110,4 +113,85 @@ body {
 .func-nav .logo a {
     display: block;
     height: 60px;
+    font-size: 0;
 } 
+
+.func-nav .buy-car {
+    position: absolute;
+    right: 9px;
+    top: 65px;
+
+    width: 34px;
+    height: 32px;
+}
+
+.func-nav .buy-car .car {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 23px;
+    width: 23px;
+
+    background: url("../images/component.png") no-repeat 0 -113px;
+}
+
+.func-nav .buy-car:hover .car {
+    background-position: 0 -80px;
+}
+
+.func-nav .buy-car .count {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    height: 19px;
+    width: 19px;
+
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+
+    background: url("../images/component.png") no-repeat 0 -51px;
+  
+}
+
+.func-nav .search {
+    position: absolute;
+    top: 75px;
+    right: 70px;
+}
+
+.func-nav .search input {
+    border: none;
+    border-bottom: 1px solid #d8cebc;
+    width: 252px;
+    height: 22px;
+
+    line-height: 22px;
+    font-size: 12px;
+    color: #333333;
+}
+
+.func-nav .search .placeholder {
+    position: absolute;
+
+    top: 5px;
+    left: 11px;
+    color: #999999;
+}
+
+.func-nav .search .button {
+    float: right;
+    width: 20px;
+    height: 20px;
+
+    background: url("../images/component.png") no-repeat 0 -291px;
+
+    cursor: pointer;
+}
+
+.func-nav .search .button:hover {
+    background-position: 0 -261px;
+}
