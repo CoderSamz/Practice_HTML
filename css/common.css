@@ -13,3 +13,10 @@
 .right {
     float: right;
 }
+
+/* 用到component图片的类 */
+.cmp,
+.site-nav .download-app::before,
+.site-nav .service::after {
+    background: url("../images/component.png");
+}
