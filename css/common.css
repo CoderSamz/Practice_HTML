@@ -6,6 +6,14 @@
     margin: auto;
 }
 
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #b4a078;
+}
+
 .left {
     float: left;
 }

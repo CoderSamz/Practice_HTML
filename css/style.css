@@ -98,8 +98,11 @@ body {
 
 /* 功能导航 */
 .func-nav {
-    height: 204px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+}
+
+.func-nav .row {
+    height: 204px;
 }
 
 .func-nav .logo {
@@ -201,4 +204,37 @@ body {
 
 .func-nav .search .button:hover {
     background-position: 0 -261px;
+}
+
+.func-nav .tab-nav {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.func-nav .tab-nav .item {
+    float: left;
+
+    height: 23px;
+    margin: 0 24px;
+    font-weight: 700;
+    font-style: 14px;
+}
+
+.func-nav .tab-nav .item a {
+    display: block;
+    padding-bottom: 5px;
+}
+ 
+.func-nav .tab-nav .item a:hover,
+.func-nav .tab-nav .item.active a {
+    color: #b4a078;
+    border-bottom: 3px solid #b4a078;
+}
+
+.func-nav .tab-nav .divider {
+    float: left;
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
 }
