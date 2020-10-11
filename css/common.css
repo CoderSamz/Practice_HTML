@@ -28,3 +28,27 @@ a:hover {
 .site-nav .service::after {
     background: url("../images/component.png");
 }
+
+/* 上一页\下一页按钮 */
+.arrow-btn {
+    position: absolute;
+    top: 200px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: url("../images/icon-normal.png") #d0c4af;
+    cursor: pointer;
+}
+
+.arrow-btn:hover {
+    background-color: #b19d79;
+}
+
+.arrow-btn.pre {
+    background-position: 0 -4700px;
+}
+
+.arrow-btn.next {
+    background-position: 0 -4880px;
+}

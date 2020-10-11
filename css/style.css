@@ -98,6 +98,8 @@ body {
 
 /* 功能导航 */
 .func-nav {
+    position: relative;
+    z-index: 1;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
 }
 
@@ -237,4 +239,65 @@ body {
     width: 1px;
     height: 20px;
     background-color: #ccc;
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .image-list {
+    position: relative;
+    left: -960px;
+    height: 420px;
+    margin-left: 50%;
+}
+
+.slider .image-list li {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.slider .pre {
+    left: 150px;
+}
+
+.slider .next {
+    right: 150px;
+}
+
+.slider .page-list {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.slider .page-list li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.slider .page-list button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #bfbbba;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .page-list button:hover,
+.slider .page-list .active button {
+    box-shadow: 0 0 0 4px #dfcead;
+    border: 2px solid #b4a078;
+    background-color: transparent;
 }
