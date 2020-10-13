@@ -1,9 +1,59 @@
 @charset "UTF-8";
 
+/* 清理浮动 */
+.clear-fix::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.clear-fix {
+    *zoom: 1;
+}
+
 .row {
     position: relative;
     width: 1090px;
     margin: auto;
+}
+
+/* 每一行主要内容的头部信息 */
+.header {
+    margin-bottom: 20px;
+}
+
+.header .title {
+    float: left;
+    font-style: 28px;
+    font-weight: 700;
+    line-height: 1;
+    margin-right: 20px;
+}
+
+.header .subtitle {
+    float: left;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.header .more {
+    float: right;
+    font-size: 14px;
+    line-height: 1;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+
+/* 图片缩放功能 */
+.img-scale img {
+    transition: transform 1s;
+}
+
+.img-scale:hover img {
+    transform: scale(1.05);
 }
 
 a {

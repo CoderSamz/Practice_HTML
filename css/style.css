@@ -286,6 +286,9 @@ body {
 }
 
 .slider .page-list button {
+    /* 设置为block，是为了不让父元素的vertical-align影响到button
+        不让button的离得vertical-align混淆在一起
+    */
     display: block;
     width: 12px;
     height: 12px;
@@ -300,4 +303,74 @@ body {
     box-shadow: 0 0 0 4px #dfcead;
     border: 2px solid #b4a078;
     background-color: transparent;
+}
+
+/* 品牌制造商 */
+.brand {
+    margin-top: 30px;
+}
+.brand .item {
+    position: relative;
+    float: left;
+    text-align: center;
+    color: #666;
+    overflow: hidden;
+}
+
+.brand .item img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.brand .item .name {
+    font-weight: 400;
+}
+
+.brand .item .price {
+    display: inline-block;
+    border-top: 1px solid #666;
+    font-size: 14px;
+    
+}
+
+.brand .item .name,
+.brand .item .price {
+    position: relative;
+    z-index: 1;
+}
+
+.brand .large {
+    width: 357px;
+    height: 320px;
+    margin-right: 9px;
+}
+
+.brand .large .name {
+    margin: 48px 0 19px;
+    font-size: 24px;
+}
+
+.brand .large .price {
+    padding-top: 17px;
+}
+
+.brand .small {
+    width: 357px;
+    height: 155px;
+    text-align: left;
+}
+
+.brand .small .name {
+    font-size: 20px;
+    margin: 32px 0 10px 20px;
+}
+
+.brand .small .price {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.brand .last {
+    margin-top: 10px;
 }
