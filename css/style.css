@@ -75,8 +75,7 @@ body {
     display: inline-block;
     height: 11px;
     width: 7px;
-    margin-right: 6px;
-    
+    margin-right: 6px;   
     background-position: 0 0;
     vertical-align: middle;
 }
@@ -87,7 +86,6 @@ body {
     height: 5px;
     width: 11px;
     margin-left: 10px;
-
     background-position: 0 -321px;
     vertical-align: middle;
 }
@@ -114,10 +112,8 @@ body {
     left: 0;
     right: 0;
     margin: 0 auto;
-
     height: 60px;
     width: 180px;
-
     background-position: 0 -146px;
     
 }
@@ -132,7 +128,6 @@ body {
     position: absolute;
     right: 9px;
     top: 65px;
-
     width: 34px;
     height: 32px;
 }
@@ -141,10 +136,8 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-
     height: 23px;
     width: 23px;
-
     background-position: 0 -113px;
 }
 
@@ -156,15 +149,12 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-
     height: 19px;
     width: 19px;
-
     color: #ffffff;
     text-align: center;
     line-height: 20px;
     font-size: 12px;
-
     background-position: 0 -51px;
   
 }
@@ -180,7 +170,6 @@ body {
     border-bottom: 1px solid #d8cebc;
     width: 252px;
     height: 22px;
-
     line-height: 22px;
     font-size: 12px;
     color: #333333;
@@ -188,7 +177,6 @@ body {
 
 .func-nav .search .placeholder {
     position: absolute;
-
     top: 5px;
     left: 11px;
     color: #999999;
@@ -198,9 +186,7 @@ body {
     float: right;
     width: 20px;
     height: 20px;
-
     background-position: 0 -291px;
-
     cursor: pointer;
 }
 
@@ -373,4 +359,113 @@ body {
 
 .brand .last {
     margin-top: 10px;
+}
+
+/* 新品首发 */
+.new-products {
+    margin-top: 60px;
+}
+
+.new-products .pre {
+    left: -70px;
+}
+
+.new-products .next {
+    right: -70px;
+}
+
+.new-products .product {
+    width: 265px;
+}
+
+.new-products .product .image {
+    position: relative;
+    width: 265px;
+    height: 265px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.new-products .product .cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.new-products .product:hover .cover {
+    display: block;
+}
+
+.new-products .product:hover {
+    background-color: #f4f0ea;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+}
+
+.new-products .product .tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    padding: 0 4px;
+    color: #a7936e;
+    border: 1px solid #b3a07d;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #f4f0ea;
+}
+
+.new-products .product .info {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.new-products .product .attrs {
+    height: 20px;
+    margin-bottom: 3px;
+    line-height: 20px;
+    
+}
+
+.new-products .product .attr {
+    display: inline-block;    
+    height: 20px;
+    margin: 0 3px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #e36844;
+}
+
+.new-products .product .attr.hot {
+    background-color: #f28f2d;
+}
+
+.new-products .product .attr.special {
+    color: #a94528;
+    background-color: #f8bc59;
+}
+
+.new-products .product .name {
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.new-products .product .price {
+    font-size: 13px;
+    line-height: 13px;
+    
+}
+
+.new-products .product .price-value {
+    color: #d4282d;
+}
+
+.new-products .product .brand-name {
+    border-left: 1px solid #999;
+    padding-left: 10px;
+    margin-left: 7px;
+    color: #999;
 }
