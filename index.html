@@ -151,14 +151,69 @@
                             <p class="attrs">
                                 <span class="attr hot">爆品</span>
                                 <span class="attr">加价购</span>
-                                <span class="attr special">APP特惠</span>
                             </p>
-                            <h3 class="name">
+                            <h3 class="name one-line">
                                 <a href="#">24寸 纯PC“铝框”（非全铝）拉杆箱</a>
                             </h3>
                             <p class="price">
                                 <span class="price-value">¥389</span>
                                 <a href="#" class="brand-name">新秀丽制造商</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="image">
+                            <img src="images/new-products_02.png" alt="">
+                            <img class="cover" src="images/new-products_02_02.jpg" alt="">
+                        </a>
+                        <div class="info">
+                            <p class="attrs">
+                                <span class="attr">加价购</span>
+                            </p>
+                            <h3 class="name one-line">
+                                <a href="#">头层牛皮长款拉链钱包</a>
+                            </h3>
+                            <p class="price">
+                                <span class="price-value">¥269</span>
+                                <a href="#" class="brand-name">Coach制造商</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="image">
+                            <img src="images/new-products_03.png" alt="">
+                            <span class="tag">日本制造</span>
+                            <img class="cover" src="images/new-products_03_02.jpg" alt="">
+                        </a>
+                        <div class="info">
+                            <p class="attrs">
+                                <span class="attr hot">爆品</span>
+                                <span class="attr">加价购</span>
+                                <span class="attr special">APP特惠</span>
+                            </p>
+                            <h3 class="name one-line">
+                                <a href="#">日本制造 手作味淋料酒</a>
+                            </h3>
+                            <p class="price">
+                                <span class="price-value">¥35</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <a href="#" class="image">
+                            <img src="images/new-products_04.png" alt="">
+                            <span class="tag">6色可选</span>
+                            <img class="cover" src="images/new-products_04_02.jpg" alt="">
+                        </a>
+                        <div class="info">
+                            <p class="attrs">
+                                
+                            </p>
+                            <h3 class="name one-line">
+                                <a href="#">Deary 亲子木马银手链</a>
+                            </h3>
+                            <p class="price">
+                                <span class="price-value">¥129</span>
                             </p>
                         </div>
                     </div>
@@ -173,6 +228,29 @@
 
     <div id="footer"></div>
 
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        // 通过JS消除行内级元素的间隙
+        function removeSpace() {
+            for (var i in arguments) {
+                $(arguments[i]).contents().filter(function () {
+                    return this.nodeType === 3;
+                }).remove();
+            }
+        }
+
+        $(function() {
+            removeSpace('.slider .page-list', 
+            '.product .attrs',
+            '.product .price');
+        });
+    </script>
 </body>
 
 </html>

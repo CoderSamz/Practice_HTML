@@ -374,8 +374,13 @@ body {
     right: -70px;
 }
 
+.new-products .content {
+    margin-right: -10px;
+}
 .new-products .product {
     width: 265px;
+    float: left;
+    margin-right: 10px;
 }
 
 .new-products .product .image {
@@ -449,8 +454,9 @@ body {
 
 .new-products .product .name {
     height: 20px;
-    line-height: 20px;
+    padding: 0 10px;
     margin-bottom: 4px;
+    line-height: 20px;
 }
 
 .new-products .product .price {

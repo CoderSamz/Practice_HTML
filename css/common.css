@@ -102,3 +102,13 @@ a:hover {
 .arrow-btn.next {
     background-position: 0 -4880px;
 }
+
+/* 只显示一行文字(多出部分用省略号显示)*/
+.one-line {
+    /* 保证永远只显示一行文字(单词可以超出元素范围) */
+    white-space: nowrap;
+    /* 超出元素的内容隐藏掉 */
+    overflow: hidden;
+    /* 隐藏掉的内容在尾部用省略号来显示 */
+    text-overflow: ellipsis;
+}
