@@ -364,6 +364,7 @@ body {
 /* 新品首发 */
 .new-products {
     margin-top: 60px;
+    padding-bottom: 60px;
 }
 
 .new-products .pre {
@@ -474,4 +475,30 @@ body {
     padding-left: 10px;
     margin-left: 7px;
     color: #999;
+}
+
+/* 人气推荐 */
+.popular {
+    padding: 60px 0;
+    background-color: #f4f0ea;
+}
+
+.popular .rank {
+    float: left;
+    padding-left: 13px;
+}
+
+.popular .rank a {
+    float: left;
+    width: 70px;
+    height: 28px;
+    margin-right: 55px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.popular .rank .active {
+    border-bottom: 2px solid #b4a078;
+    color: #b4a078;
 }
