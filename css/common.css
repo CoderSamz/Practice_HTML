@@ -121,6 +121,7 @@ a:hover {
  .product .image {
     position: relative;
     display: block;
+    overflow: hidden;
     margin-bottom: 8px;
 }
 
